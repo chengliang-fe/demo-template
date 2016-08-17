@@ -2,7 +2,7 @@
 
 html的复用形式基本是后端语言处理（如php 的 include），或者前端用nodejs处理，这里只介绍前端的做法。
 
-## [jade](http://jade-lang.com/)
+## 方法一：[jade](http://jade-lang.com/)、ejs
 
 第一步全局安装 `jade`
 
@@ -24,7 +24,7 @@ npm i jade -g
 
 像这样的方式还有 [ejs](http://www.embeddedjs.com/)
 
-## gulp
+## 方法二：gulp
 
 第一步全局安装 `gulp`
 
@@ -48,3 +48,10 @@ gulp fileinclude
 
 其它局部的模块引擎可以使用 [artTemplate](https://github.com/aui/artTemplate)、[laytpl](http://laytpl.layui.com/)
 
+## 自己动手试一试
+
+```
+git clone https://github.com/shuchengliang/demo-template.git
+```
+
+然后按照上面的操作执行，欢迎讨论交流，提提其它的想法。
