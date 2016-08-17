@@ -1,0 +1,21 @@
+{
+  "name": "demo-template-gulp",
+  "version": "1.0.0",
+  "description": "demo",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-file-include": "^0.14.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "模版复用"
+  ],
+  "author": "qingzhui <670761743@qq.com> (http://www.qingzhui.net)",
+  "license": "ISC"
+}
